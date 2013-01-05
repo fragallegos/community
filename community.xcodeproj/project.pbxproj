@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4D8FFF154A37AE0048C96B /* MainMenuCyan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4D8FFB154A37AE0048C96B /* MainMenuCyan.jpg */; };
+		EC4D9000154A37AE0048C96B /* MainMenuGreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4D8FFC154A37AE0048C96B /* MainMenuGreen.jpg */; };
+		EC4D9001154A37AE0048C96B /* MainMenuOrange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4D8FFD154A37AE0048C96B /* MainMenuOrange.jpg */; };
+		EC4D9002154A37AE0048C96B /* MainMenuPink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4D8FFE154A37AE0048C96B /* MainMenuPink.jpg */; };
 		ECDB83C215327F7600C0DDD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDB83C115327F7600C0DDD4 /* UIKit.framework */; };
 		ECDB83C415327F7600C0DDD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDB83C315327F7600C0DDD4 /* Foundation.framework */; };
 		ECDB83C615327F7600C0DDD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDB83C515327F7600C0DDD4 /* CoreGraphics.framework */; };
@@ -15,22 +19,42 @@
 		ECDB83D215327F7600C0DDD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDB83D115327F7600C0DDD4 /* AppDelegate.m */; };
 		ECDB83D515327F7600C0DDD4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83D315327F7600C0DDD4 /* MainStoryboard.storyboard */; };
 		ECDB83D815327F7600C0DDD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDB83D715327F7600C0DDD4 /* ViewController.m */; };
+		ECDB83E2153280B100C0DDD4 /* Icono.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83DE153280B100C0DDD4 /* Icono.png */; };
+		ECDB83E3153280B100C0DDD4 /* MenuMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83DF153280B100C0DDD4 /* MenuMain.jpg */; };
+		ECDB83E4153280B100C0DDD4 /* Preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83E0153280B100C0DDD4 /* Preview.jpg */; };
+		ECDB83E5153280B100C0DDD4 /* SplashScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83E1153280B100C0DDD4 /* SplashScreen.jpg */; };
+		ECDB83E7153280CC00C0DDD4 /* Icono.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83E6153280CC00C0DDD4 /* Icono.png */; };
+		ECDB83E91532812E00C0DDD4 /* Icono2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83E81532812E00C0DDD4 /* Icono2.png */; };
+		ECDB83EB1532850D00C0DDD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83EA1532850D00C0DDD4 /* Default@2x.png */; };
+		ECDB83ED153285BF00C0DDD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDB83EC153285BF00C0DDD4 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4D8FFB154A37AE0048C96B /* MainMenuCyan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainMenuCyan.jpg; sourceTree = "<group>"; };
+		EC4D8FFC154A37AE0048C96B /* MainMenuGreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainMenuGreen.jpg; sourceTree = "<group>"; };
+		EC4D8FFD154A37AE0048C96B /* MainMenuOrange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainMenuOrange.jpg; sourceTree = "<group>"; };
+		EC4D8FFE154A37AE0048C96B /* MainMenuPink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainMenuPink.jpg; sourceTree = "<group>"; };
 		ECDB83BD15327F7600C0DDD4 /* community.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = community.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDB83C115327F7600C0DDD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECDB83C315327F7600C0DDD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECDB83C515327F7600C0DDD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ECDB83C915327F7600C0DDD4 /* community-Info.plist */ = {isa = PBXFileReference; path = "community-Info.plist"; sourceTree = "<group>"; };
+		ECDB83C915327F7600C0DDD4 /* community-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "community-Info.plist"; sourceTree = "<group>"; };
 		ECDB83CB15327F7600C0DDD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECDB83CD15327F7600C0DDD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ECDB83CF15327F7600C0DDD4 /* community-Prefix.pch */ = {isa = PBXFileReference; path = "community-Prefix.pch"; sourceTree = "<group>"; };
-		ECDB83D015327F7600C0DDD4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECDB83CF15327F7600C0DDD4 /* community-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "community-Prefix.pch"; sourceTree = "<group>"; };
+		ECDB83D015327F7600C0DDD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECDB83D115327F7600C0DDD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECDB83D415327F7600C0DDD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		ECDB83D615327F7600C0DDD4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ECDB83D615327F7600C0DDD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ECDB83D715327F7600C0DDD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECDB83DE153280B100C0DDD4 /* Icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icono.png; sourceTree = "<group>"; };
+		ECDB83DF153280B100C0DDD4 /* MenuMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MenuMain.jpg; sourceTree = "<group>"; };
+		ECDB83E0153280B100C0DDD4 /* Preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Preview.jpg; sourceTree = "<group>"; };
+		ECDB83E1153280B100C0DDD4 /* SplashScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SplashScreen.jpg; sourceTree = "<group>"; };
+		ECDB83E6153280CC00C0DDD4 /* Icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icono.png; sourceTree = "<group>"; };
+		ECDB83E81532812E00C0DDD4 /* Icono2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icono2.png; sourceTree = "<group>"; };
+		ECDB83EA1532850D00C0DDD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ECDB83EC153285BF00C0DDD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +74,10 @@
 		ECDB83B215327F7600C0DDD4 = {
 			isa = PBXGroup;
 			children = (
+				ECDB83EC153285BF00C0DDD4 /* Default.png */,
+				ECDB83EA1532850D00C0DDD4 /* Default@2x.png */,
+				ECDB83E81532812E00C0DDD4 /* Icono2.png */,
+				ECDB83E6153280CC00C0DDD4 /* Icono.png */,
 				ECDB83C715327F7600C0DDD4 /* community */,
 				ECDB83C015327F7600C0DDD4 /* Frameworks */,
 				ECDB83BE15327F7600C0DDD4 /* Products */,
@@ -90,6 +118,14 @@
 		ECDB83C815327F7600C0DDD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC4D8FFB154A37AE0048C96B /* MainMenuCyan.jpg */,
+				EC4D8FFC154A37AE0048C96B /* MainMenuGreen.jpg */,
+				EC4D8FFD154A37AE0048C96B /* MainMenuOrange.jpg */,
+				EC4D8FFE154A37AE0048C96B /* MainMenuPink.jpg */,
+				ECDB83DE153280B100C0DDD4 /* Icono.png */,
+				ECDB83DF153280B100C0DDD4 /* MenuMain.jpg */,
+				ECDB83E0153280B100C0DDD4 /* Preview.jpg */,
+				ECDB83E1153280B100C0DDD4 /* SplashScreen.jpg */,
 				ECDB83C915327F7600C0DDD4 /* community-Info.plist */,
 				ECDB83CA15327F7600C0DDD4 /* InfoPlist.strings */,
 				ECDB83CD15327F7600C0DDD4 /* main.m */,
@@ -150,6 +186,18 @@
 			files = (
 				ECDB83CC15327F7600C0DDD4 /* InfoPlist.strings in Resources */,
 				ECDB83D515327F7600C0DDD4 /* MainStoryboard.storyboard in Resources */,
+				ECDB83E2153280B100C0DDD4 /* Icono.png in Resources */,
+				ECDB83E3153280B100C0DDD4 /* MenuMain.jpg in Resources */,
+				ECDB83E4153280B100C0DDD4 /* Preview.jpg in Resources */,
+				ECDB83E5153280B100C0DDD4 /* SplashScreen.jpg in Resources */,
+				ECDB83E7153280CC00C0DDD4 /* Icono.png in Resources */,
+				ECDB83E91532812E00C0DDD4 /* Icono2.png in Resources */,
+				ECDB83EB1532850D00C0DDD4 /* Default@2x.png in Resources */,
+				ECDB83ED153285BF00C0DDD4 /* Default.png in Resources */,
+				EC4D8FFF154A37AE0048C96B /* MainMenuCyan.jpg in Resources */,
+				EC4D9000154A37AE0048C96B /* MainMenuGreen.jpg in Resources */,
+				EC4D9001154A37AE0048C96B /* MainMenuOrange.jpg in Resources */,
+				EC4D9002154A37AE0048C96B /* MainMenuPink.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "community/community-Prefix.pch";
 				INFOPLIST_FILE = "community/community-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,6 +297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "community/community-Prefix.pch";
 				INFOPLIST_FILE = "community/community-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +322,7 @@
 				ECDB83DD15327F7600C0DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
